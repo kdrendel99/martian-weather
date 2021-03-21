@@ -2,11 +2,12 @@
 
 ## _This project is not in a complete or portfolio ready state, and should not be considered representational of professional work._
 
-# _Application Name_
+# An application for Martians 
 
-#### _Brief description of application_
+#### This application includes useful information for Martians, includes: Martian weather, the astrpnomy picture of the d, and views from the Mars Rover.
 
-#### _By **Karlson Drendel**_
+#### _By **Karlson Drendel**_ and **Sofia Acosta**
+
 
 #### _Table of Contents_
 
@@ -87,3 +88,4 @@ Copyright (c) **_2021 Karlson Drendel_**
 
 ## Contact Information <a id="contact"></a>
 **_Karlson Drendel [mailto](mailto:kdrendel99@gmail.com)_**
+**_Sofia Acosta [mailto](mailto:sofiaacostarascon@gmail.com)_**

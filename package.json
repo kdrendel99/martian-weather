@@ -1,22 +1,31 @@
 {
-  "name": "Document",
+  "name": "mars-weather",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode=development",
-    "start": "npm run build; webpack-dev-server --open --mode development",
+    "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdrendel99/.git"
+  },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Karlson Drendel and Sofia Acosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdrendel99/martian-weather"
+  },
+  "homepage": "https://github.com/cat-denton/martian-weather",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
+    "dotenv-webpack": "^2.0.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "file-loader": "^1.1.6",
@@ -29,7 +38,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^4.6.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   }
