@@ -37,7 +37,7 @@ $(document).ready(function() {
   imgRequest.open ("GET", imgUrl, true);
   imgRequest.send();
   function getImage(response2)  {
-    $('.showImage').html(`${response2.explanation}`)
+    $('.showImageCaption').html(`${response2.explanation}`);
     $('.showImage').append(`<img src="${response2["url"]}"width="400">`);
   }
     });
